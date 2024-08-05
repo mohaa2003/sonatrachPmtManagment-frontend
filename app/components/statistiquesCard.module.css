@@ -1,0 +1,32 @@
+.card{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid var(--dark);
+    background-color: #eee;
+    border-radius: 25px 10px;
+}
+
+.card:hover{
+    background-color: #ddd;
+}
+
+.card h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.totalNumber{
+    text-align: center;
+    font-size: 200%;
+}

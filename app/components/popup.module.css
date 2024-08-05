@@ -1,0 +1,29 @@
+.overly{
+    background-color: #30444c7e;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popup{
+    position: fixed;
+    z-index: 102;
+    width: 40%;
+    max-height: 80%;
+    top: calc(50vh - 40%);
+    left: calc(50vw - 20%);
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid var(--dark);
+    overflow: auto;
+    padding: 30px;
+}
+
+
+.popup p::selection,.popup input::selection,.popup label::selection{
+    background-color: var(--bright);
+}
+

@@ -1,0 +1,14 @@
+.deleteConfirmTitlt{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnContainer{
+    margin-left: 5px;
+}
+

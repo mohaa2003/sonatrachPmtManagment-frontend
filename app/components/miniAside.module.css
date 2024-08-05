@@ -1,0 +1,39 @@
+.aside{
+    color: white;
+    position: fixed;
+    top: 80px;
+    z-index: 10;  
+    padding-top: 40px;
+    background-color: var(--dark);
+    width: 60px;
+    min-height: calc(100vh - 80px);
+}
+
+.titleAside{
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.titleAside span{
+    color: white;
+}
+
+.hoverTitleAside:hover{
+    background-color: var(--darkShadowColor);
+}
+
+.titleAsideActif{
+    background-color: var(--darkShadowColor);
+    border: 2px solid var(--bright);
+}
+
+.overlay{
+    position: fixed;
+    top:0;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: #30444cb4;
+    z-index: 10;
+}

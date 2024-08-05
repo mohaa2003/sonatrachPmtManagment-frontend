@@ -1,0 +1,38 @@
+.navbar{
+    border: 1px solid var(--bright);
+    height: 80px;
+    background-color: #eee ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul{
+    height: 100%;
+    display: flex;
+}
+
+.navElement{
+    margin-right: 60px;
+    color: var(--dark);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.navElement:hover{
+    color: var(--bright);
+}
+
+.activeNavElement{
+    color: var(--bright);
+    border-bottom: 2px solid var(--bright);
+}
+.activeNavElement:hover{
+    color: var(--bright);
+    border-bottom: 2px solid var(--bright);
+    cursor: auto;
+}

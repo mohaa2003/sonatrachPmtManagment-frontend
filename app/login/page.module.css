@@ -1,0 +1,80 @@
+.loginMain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.253),rgba(255, 255, 255, 0.253) )
+    ,url("https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2020/03/26/jad20200326-confalgerie-sonatrach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.leftSideform{
+    background-color: #f48320a4;
+    width: 400px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--dark) ;
+    border-radius: 16px;
+}
+
+.formTitle{
+    width: 378px;
+    text-align: center;  
+}
+
+
+.formTitle h2{
+    margin-bottom: 10px;
+}
+
+.inputs{
+    width: 340px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input{
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 16px;
+    border: none;
+    font-weight: 600;
+}
+
+.inputs > div{
+    position: relative;
+    width: 100%;   
+    margin-bottom: 18px;
+}
+
+.inputLabel{
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.inputLabel p{
+    margin-left: 6px;
+}
+
+.inputs input::selection{
+    background-color: var(--bright);
+}
+
+.submition{
+    margin-top: 24px;
+}

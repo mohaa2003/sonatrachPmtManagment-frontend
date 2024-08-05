@@ -1,0 +1,40 @@
+.mainPersonelle{
+
+}
+
+.tablePersonelle{   
+    max-width: 80%;
+    max-height: 60vh;
+    margin: auto;
+    overflow: scroll;
+}
+
+.tableControls{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineID{
+    font-weight: bold;
+}
+
+.rightControls{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightControls button{
+    color: white;
+    background-color: var(--bright);
+    padding: 10px;
+    border-radius: 200px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+ }

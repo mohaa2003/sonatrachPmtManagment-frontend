@@ -1,0 +1,32 @@
+.listGetter{
+    background-color: var(--dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -20px 10px 30px var(--darkShadowColor);
+
+}
+
+
+.listGetter button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.overlay{
+    position: fixed;
+    top:0;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    background-color: #30444cb4;
+    z-index: 10;
+}

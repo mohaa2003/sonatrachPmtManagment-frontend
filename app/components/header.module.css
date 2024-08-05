@@ -1,0 +1,58 @@
+.header{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: calc(100% - 60px);
+    height: 70px;
+    box-shadow: 15px 0 15px var(--lightShadowColor);
+}
+
+.pseudo{
+    position: relative;
+    width: 99.5%;
+    height: 1px;
+    margin: auto;
+}
+
+.pseudo::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    z-index: 2;
+    height: 10px;
+    width: 100%;
+    background-color: var(--bright);
+}
+
+.headerContainer{
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerAuthentif{
+    display: flex;
+    align-items: center;
+}
+
+.fstChild{
+    margin-right: 32px;
+}
+
+.pageTitle{
+    height: 100%;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.pageTitle h2{
+    font-size: 130%;
+    line-height: 70px;
+    margin-left: 32px;
+}
+
+.pageTitle h2::selection{
+    background-color: var(--bright);
+}
